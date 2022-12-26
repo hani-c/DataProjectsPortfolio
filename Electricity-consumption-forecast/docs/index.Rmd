@@ -1,0 +1,392 @@
+---
+title: "Electricity Consumption Forcasting"
+output:
+  html_document:
+    df_print: paged
+---
+
+---
+title: "R Notebook"
+output:
+  pdf_document: 
+    toc: yes
+---
+
+# Preparation of the data
+
+```{r}
+library(xlsx)
+library(forecast)
+library(ggplot2)
+```
+
+```{r}
+data=read.xlsx('/Users/hani/Documents/Elec-forecast/Elec-train.xlsx', sheetIndex=1,header=TRUE)
+colnames(data) <- c("Time", "Power", "Temp")
+```
+
+
+*Modification of the type of time data from character to POSIXct:*
+```{r}
+data$Time = as.POSIXct(data$Time, tz="GMT", format = "%m/%d/%Y %H:%M")
+```
+
+
+*Plot of the time series Power Consumption and Temperature:*
+```{r}
+plot(data$Time,data$Power, type='l')
+```
+
+```{r}
+plot(data$Time, data$Temp,type='l')
+```
+
+
+*Creation of time series objects:*
+```{r}
+power = ts(data$Power, start= c(1,6), end=c(47,96), freq=96)
+temperature = ts(data$Temp, start=c(1,6), end=c(47,96),freq=96)
+```
+
+
+
+## Analysis of the time series Power Consumption
+
+*Creation of train and test dataset:*
+```{r}
+power_train =window(power,start=c(1,6), end=c(40,96))
+power_test = window(power, start=c(41,1), end=c(47,96))
+```
+
+```{r}
+temp_train =window(temperature,start=c(1,6), end=c(40,96))
+temp_test = window(temperature, start=c(41,1), end=c(47,96))
+```
+
+
+
+*Plot of the power time series:*
+```{r}
+plot(power_train,xlim=c(1,47))
+lines(power_test,lty=2)
+```
+The trend of the time series suggest that we have a periodicity.
+
+
+*More details with the decomposition plot:* 
+```{r}
+autoplot(decompose(power))
+```
+
+```{r}
+ggtsdisplay(power_train)
+```
+
+The seasonality is confirmed with the shape of the acf plot and decompose plot. The period is 96 which correspond to the total number of observations per day. Furthermore, the seasonality seems to be additive as we do not see a significant evolution of the variance on the plot. 
+
+
+# Forecasting without covariates
+
+## Exponentional smoothing model 
+
+*We start by considering an exponential smoothing model.*
+
+```{r}
+fit_hw = HoltWinters(power_train,seasonal='additive')
+prev_hw= forecast(fit_hw, h=672)
+plot(power_train,xlim=c(1,47))
+lines(power_test,lty=2)
+lines(prev_hw$mean,col=2)
+```
+
+*RMSE for Exponential smoothing:*
+```{r}
+rmse_hw=sqrt(mean((prev_hw$mean-power_test)^2))
+rmse_hw
+```
+
+
+## Auto SARIMA model without covariates  
+
+```{r}
+fit=auto.arima(power_train)
+prev=forecast(fit, h=672)
+plot(power_train,xlim=c(1,47))
+lines(power_test,lty=2)
+lines(prev$mean,col=2)
+```
+
+```{r}
+fit
+```
+
+The model generated is a SARIMA (1,0,0)(0,1,0)[96].
+
+*RMSE SARIMA without covariate:*
+
+```{r}
+rmse_sa = sqrt(mean((prev$mean-power_test)^2))
+rmse_sa
+```
+
+*Residuals checking on the SARIMA model automatically generated:*
+
+```{r}
+checkresiduals(fit)
+ggPacf(fit$residuals)
+```
+
+There are still some autocorrelations on residuals which suggest that they are not totally modelized.
+
+
+## Manual SARIMA without covariate
+
+```{r}
+tmp=diff(power_train,lag=96)
+ggAcf(tmp)
+ggtsdisplay(tmp)
+```
+
+Looking at the acf trend, it seems that there is still a trend.
+
+```{r}
+ggtsdisplay(diff(tmp))
+```
+
+We observe a very significant spike on lag 96 on acf with an exponential decay on pacf seasonal lags. This suggests a seasonal MA1.
+And we observe another significant spike on lag 4 on acf for which we will choose a non-seasonal MA4.
+
+Following this, we can think of a SARIMA(0,1,4)(0,1,1)[96]
+
+```{r}
+fitx=auto.arima(power_train,stationary=TRUE, seasonal=TRUE)
+fitx
+```
+
+
+```{r}
+fitsam=arima(power_train,order=c(0,1,4),seasonal=list(order=c(0,1,1), period = 96))
+fitsam
+```
+
+```{r}
+checkresiduals(fitsam)
+```
+
+
+```{r}
+prev_sa_m=forecast(fitsam, h=672)
+plot(power_train,xlim=c(1,47))
+lines(power_test,lty=2)
+lines(prev_sa_m$mean,col=2)
+```
+
+
+*RMSE Manual SARIMA without covariate:*
+
+```{r}
+rmse_sa_m= sqrt(mean((prev_sa_m$mean-power_test)^2))
+rmse_sa_m
+```
+
+
+## Neural Network Autoregressive model
+
+```{r}
+fitnn=nnetar(power_train, T=96)
+print(fitnn)
+```
+
+```{r}
+prevNN = forecast(fitnn, h=672)
+autoplot(power_test)+
+  autolayer(prev$mean,series="Auto SARIMA without covariate")+
+  autolayer(prevNN$mean,series="NNAR")
+
+```
+
+
+*RMSE NNAR:*
+```{r}
+rmse_NN=sqrt(mean((prevNN$mean-power_test)^2))
+rmse_NN
+```
+
+
+# Forecasting with covariate
+
+## Auto SARIMA model with covariate
+
+We introduce the temperature as a covariate for the definition of the SARIMA model for Power. 
+
+```{r}
+fit_cov=auto.arima(power_train,xreg=temp_train)
+prev_power_cov = forecast(fit_cov,h=672,xreg=temp_test)
+autoplot(power_test) + 
+  autolayer(prev_power_cov$mean, series = 'SARIMA with covariate')+
+  autolayer(prev$mean,series="Auto SARIMA without covariate")+
+  autolayer(prevNN$mean,series="NNAR")
+```
+```{r}
+fit_cov
+```
+
+
+*RMSE Auto SARIMA with covariate:*
+
+```{r}
+rmse_sa_co=sqrt(mean((prev_power_cov$mean-power_test)^2))
+rmse_sa_co
+```
+```{r}
+checkresiduals(fit_cov)
+```
+
+There are still some auto-correlations on model residuals which suggest that residuals are not totally modeled.
+
+We can try to find a better model manually.
+
+
+## Manual SARIMA with covariate
+
+We start by looking the relationship between Power and Temperature.
+
+```{r}
+power_train2 = cbind(Production=power_train,Temp=temp_train)
+model=tslm(Production~Temp+trend+season,data=power_train2)
+summary(model)
+```
+
+All features seems significant. 
+
+We check the residuals of the model:
+```{r}
+ggtsdisplay(model$residuals)
+```
+There is an exponential decrease of the ACF and significant spike at lag 5 on the PACF. This looks like an AR5 model.
+
+We can test the model:
+```{r}
+tmp=model$residuals
+fit3 = Arima(tmp,order=c(5,0,0))
+checkresiduals(fit3)
+ggtsdisplay(fit3$residuals)
+```
+The residuals still does not look entirely like white noise. However, looking at the significance level of the spikes on the acf/pacf plots and the fact that other orders trials ended up in more important auto-correlations, we continue with this model for the residuals. 
+
+Back to the entire model: 
+```{r}
+fit_sacom = Arima(power_train2[,"Production"],xreg=power_train2[,"Temp"],order=c(5,0,0),seasonal = c(0,1,0))
+ggtsdisplay(fit_sacom$residuals)
+```
+There are still some significant auto-correlation: a spike at lag 96 on the ACF and an exponential decrease on the PACF plot on seasonal lags. We will model it with a seasonal MA1.
+
+```{r}
+fit_sa_co_m = Arima(power_train2[,"Production"],xreg=power_train2[,"Temp"],order=c(5,0,0),seasonal = c(0,1,1))
+ggtsdisplay(fit_sa_co_m$residuals)
+```
+The auto-correlations are less significant with this model. We will use this model for forecasting. 
+
+
+```{r}
+prev_sa_co_m = forecast(fit_sa_co_m,h=672,xreg=temp_test)
+autoplot(power_test)+autolayer(prev_sa_co_m$mean, series="Manual SARIMA with covariate")
+```
+
+*RMSE Manual SARIMA with covariate:*
+```{r}
+rmse_sa_co_m = sqrt(mean((prev_sa_co_m$mean-power_test)^2))
+rmse_sa_co_m
+```
+
+
+## Vectorial Auto-Regressive model
+```{r}
+library(vars)
+```
+
+```{r}
+dataVar=cbind(power,temperature)
+VARselect(dataVar,lag.max=96, type='const')$selection
+```
+The best VAR parameter found is 96 in regard to best criterion selection.
+
+We use it for the contruction of our VAR model:
+```{r}
+var <- VAR(dataVar, p=96,type='const')
+
+```
+
+
+```{r}
+datatrain=cbind(power_train,temp_train)
+
+var2 = VAR(datatrain, p=96)
+fcst2=forecast(var2, h=672)
+plot(fcst2)
+```
+*RMSE for the VAR power:*
+```{r}
+rmse_var_p=sqrt(mean((power_test-fcst2$forecast$power_train$mean)^2))
+rmse_var_p
+```
+
+## Summary of all models forecasting compared to test set
+```{r}
+autoplot(power_test)+
+  autolayer(prev_hw$mean,series='HW without covariate')+
+  autolayer(prev$mean,series="Auto SARIMA without covariate")+
+  autolayer(prev_sa_m$mean,series="Manual SARIMA without covariate")+
+  autolayer(prev_power_cov$mean, series='Auto SARIMA with covariate')+
+  autolayer(prevNN$mean,series="NNAR")+
+  autolayer(fcst2$forecast$power_train$mean,series='VAR')
+```
+
+```{r}
+Models <- c('HW', 'Auto SARIMA w/o covariate', 'Manual SARIMA w/o covariate', 'NNAR', 'Auto SARIMA w/ covariate', 'Manual SARIMA w/ covariate', 'VAR')
+RMSE <- c(rmse_hw,rmse_sa, rmse_sa_m, rmse_NN, rmse_sa_co, rmse_sa_co_m,rmse_var_p)
+error.data <- data.frame(Models,RMSE)
+print(error.data)
+```
+
+In regard to the values obtained for RMSE, the best model using outdoor temperature for forecasting is the manual SARIMA with covariate (SARIMA(5,0,0)(0,1,1)[96]) and the one not using outdoor temperature is the manual SARIMA without covariate (SARIMA(0,1,4)(0,1,1)[96]).
+
+
+# Forecasting of the power consumption on the 2/17/2010
+
+#### Without using the outdoor temperature
+
+```{r}
+final_fit = Arima(power,order=c(0,1,4),seasonal=c(0,1,1))
+final_prev=forecast(final_fit,h=96)
+autoplot(final_prev)+
+  ggtitle('Forcasting of the power consumption of the 17th of Feb 2010')+
+  labs(y='Power consumption')
+```
+
+#### Using outdoor temperature
+
+```{r}
+temp_final=ts(data$Temp, start=c(48,1), end=c(48,96),freq=96)
+final_fit2 = Arima(power,order=c(5,0,0),seasonal=c(0,1,1), xreg=temperature)
+final_prev2=forecast(final_fit2,xreg=temp_final,h=96)
+autoplot(final_prev2)+
+  ggtitle('Forcasting of the power consumption of the 17th of Feb 2010 \n using outdoor Temperature')+
+  labs(y='Power consumption')
+```
+
+
+# Concatenation of the two forecast and export to xlsx file
+
+```{r}
+forecast_value <- cbind(final_prev$mean, final_prev2$mean)
+write.xlsx(forecast_value, file = "CHERID.xlsx",
+      sheetName = "Forecast", row.names=FALSE, col.names=FALSE, append = FALSE)
+```
+
+
+
+
+
+
+
