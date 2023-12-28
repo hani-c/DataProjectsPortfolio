@@ -1,0 +1,521 @@
+Project ID,Project Type,Country,Phase,Start Date,Actual_Duration,Actual_Cost,Planned_Duration,Planned_Cost,Var_Deliverables
+A,Marketing - Launch of new product,Belarus,Phase 1 - Planning,6/26/17 9:00,38,48000,30.5,50000,-0.03
+A,Marketing - Launch of new product,Belarus,Phase 2 - Initiation,08/03/2017 09:00,28.5,96000,23,100000,-0.03
+1,Marketing - Launch of new product,Ecuador,Phase 3 - Implementation,09/12/2017 09:00,21.5,192000,22.5,150000,-0.05
+2,Marketing - Launch of new product,France,Phase 3 - Implementation,10/09/2017 09:00,47.5,273000,45,300000,-0.08
+3,Marketing - Launch of new product,Lebanon,Phase 3 - Implementation,12/13/17 9:00,29.5,189000,22.5,150000,-0.05
+4,Marketing - Launch of new product,Egypt,Phase 3 - Implementation,08/07/2017 09:00,20.5,184500,22.5,150000,-0.01
+5,Marketing - Launch of new product,South Africa,Phase 4 - Manufacturing,07/05/2017 09:00,18.5,445500,18,450000,-0.02
+6,Marketing - Launch of new product,Albania,Phase 4 - Manufacturing,07/09/2017 09:00,21.5,553500,18,450000,-0.13
+7,Marketing - Launch of new product,Holland,Phase 1 - Planning,9/18/17 9:00,79.5,99000,61,100000,-0.14
+7,Marketing - Launch of new product,Holland,Phase 2 - Initiation,12/07/2017 09:00,60,198000,46,200000,-0.14
+8,Marketing - Launch of new product,Germany,Phase 1 - Planning,06/12/2017 09:00,59.5,101000,61,100000,-0.06
+8,Marketing - Launch of new product,Germany,Phase 2 - Initiation,08/11/2017 09:00,45,202000,46,200000,-0.06
+9,Marketing - Launch of new product,Belgium,Phase 4 - Manufacturing,08/02/2017 09:00,41,1071000,36,900000,0
+10,Marketing - Launch of new product,Benin,Phase 4 - Manufacturing,6/29/17 9:00,13.5,279000,12,300000,-0.12
+11,Marketing - Launch of new product,Italy,Phase 3 - Implementation,12/04/2017 09:00,48,336000,45,300000,-0.13
+12,Marketing - Launch of new product,Hungary,Phase 4 - Manufacturing,11/06/2017 09:00,39,409500,36,450000,-0.06
+13,Marketing - Launch of new product,Malaysia,Phase 4 - Manufacturing,01/03/2018 09:00,23.5,409500,18,450000,0
+A,Marketing - Launch of new product,Belarus,Phase 4 - Manufacturing,7/24/17 9:00,22.5,432000,18,450000,-0.03
+1,Marketing - Launch of new product,Ecuador,Phase 4 - Manufacturing,09/12/2017 09:00,17,576000,18,450000,-0.05
+14,Marketing - Launch of new product,Croatia,Phase 3 - Implementation,08/09/2017 09:00,22,184500,22.5,150000,-0.04
+4,Marketing - Launch of new product,Egypt,Phase 4 - Manufacturing,08/07/2017 09:00,16.5,553500,18,450000,-0.01
+15,Marketing - Launch of new product,Burkina Faso,Phase 4 - Manufacturing,07/10/2017 09:00,11.5,303000,12,300000,-0.09
+16,Marketing - Launch of new product,Cote d'Ivoire,Phase 4 - Manufacturing,08/04/2017 09:00,14.5,390000,12,300000,-0.02
+2,Marketing - Launch of new product,France,Phase 4 - Manufacturing,10/08/2017 09:00,38,819000,36,900000,-0.08
+3,Marketing - Launch of new product,Lebanon,Phase 4 - Manufacturing,12/13/17 9:00,23.5,567000,18,450000,-0.05
+4,Marketing - Launch of new product,Egypt,Phase 1 - Planning,7/17/17 9:00,27.5,61500,30.5,50000,-0.01
+4,Marketing - Launch of new product,Egypt,Phase 2 - Initiation,8/14/17 9:00,21,123000,23,100000,-0.01
+15,Marketing - Launch of new product,Burkina Faso,Phase 3 - Implementation,07/11/2017 09:00,14,101000,15,100000,-0.09
+9,Marketing - Launch of new product,Belgium,Phase 3 - Implementation,08/03/2017 09:00,51,357000,45,300000,0
+10,Marketing - Launch of new product,Benin,Phase 3 - Implementation,6/30/17 9:00,17,93000,15,100000,-0.12
+11,Marketing - Launch of new product,Italy,Phase 4 - Manufacturing,12/03/2017 09:00,38.5,1008000,36,900000,-0.13
+1,Marketing - Launch of new product,Ecuador,Phase 1 - Planning,8/21/17 9:00,29,64000,30.5,50000,-0.05
+1,Marketing - Launch of new product,Ecuador,Phase 2 - Initiation,9/19/17 9:00,22,128000,23,100000,-0.05
+14,Marketing - Launch of new product,Croatia,Phase 4 - Manufacturing,08/08/2017 09:00,17.5,553500,18,450000,-0.04
+8,Marketing - Launch of new product,Germany,Phase 4 - Manufacturing,7/26/17 9:00,35,909000,36,900000,-0.06
+A,Marketing - Launch of new product,Belarus,Phase 3 - Implementation,7/25/17 9:00,28,144000,22.5,150000,-0.03
+7,Marketing - Launch of new product,Holland,Phase 3 - Implementation,11/17/17 9:00,58.5,297000,45,300000,-0.14
+14,Marketing - Launch of new product,Croatia,Phase 1 - Planning,7/17/17 9:00,29.5,61500,30.5,50000,-0.04
+14,Marketing - Launch of new product,Croatia,Phase 2 - Initiation,8/16/17 9:00,22.5,123000,23,100000,-0.04
+15,Marketing - Launch of new product,Burkina Faso,Phase 1 - Planning,6/26/17 9:00,19,33666.66667,20.5,33333.33333,-0.09
+15,Marketing - Launch of new product,Burkina Faso,Phase 2 - Initiation,7/15/17 9:00,14.5,67333.33333,15.5,66666.66667,-0.09
+5,Marketing - Launch of new product,South Africa,Phase 3 - Implementation,07/06/2017 09:00,23,148500,22.5,150000,-0.02
+17,Marketing - Launch of new product,Spain,Phase 4 - Manufacturing,10/01/2017 09:00,33,882000,36,900000,-0.01
+13,Marketing - Launch of new product,Malaysia,Phase 1 - Planning,12/04/2017 09:00,40,45500,30.5,50000,0
+13,Marketing - Launch of new product,Malaysia,Phase 2 - Initiation,1/13/18 9:00,30,91000,23,100000,0
+18,Marketing - Launch of new product,Gabon,Phase 1 - Planning,8/21/17 9:00,25.5,31666.66667,20.5,33333.33333,-0.11
+19,Marketing - Launch of new product,Czech Republic,Phase 3 - Implementation,2/21/18 9:00,42.5,303000,45,300000,-0.01
+20,Marketing - Launch of new product,Colombia,Phase 1 - Planning,7/17/17 9:00,35,61000,30.5,50000,-0.03
+16,Marketing - Launch of new product,Cote d'Ivoire,Phase 1 - Planning,7/17/17 9:00,24,43333.33333,20.5,33333.33333,-0.02
+16,Marketing - Launch of new product,Cote d'Ivoire,Phase 2 - Initiation,08/10/2017 09:00,18.5,86666.66667,15.5,66666.66667,-0.02
+2,Marketing - Launch of new product,France,Phase 1 - Planning,8/21/17 9:00,64.5,91000,61,100000,-0.08
+2,Marketing - Launch of new product,France,Phase 2 - Initiation,10/25/17 9:00,48.5,182000,46,200000,-0.08
+7,Marketing - Launch of new product,Holland,Phase 4 - Manufacturing,11/16/17 9:00,47,891000,36,900000,-0.14
+8,Marketing - Launch of new product,Germany,Phase 3 - Implementation,7/27/17 9:00,44,303000,45,300000,-0.06
+5,Marketing - Launch of new product,South Africa,Phase 1 - Planning,06/12/2017 09:00,31,49500,30.5,50000,-0.02
+5,Marketing - Launch of new product,South Africa,Phase 2 - Initiation,7/13/17 9:00,23.5,99000,23,100000,-0.02
+9,Marketing - Launch of new product,Belgium,Phase 1 - Planning,06/12/2017 09:00,69,119000,61,100000,0
+9,Marketing - Launch of new product,Belgium,Phase 2 - Initiation,8/20/17 9:00,52,238000,46,200000,0
+10,Marketing - Launch of new product,Benin,Phase 1 - Planning,06/12/2017 09:00,23,31000,20.5,33333.33333,-0.12
+21,Marketing - Launch of new product,Estonia,Phase 1 - Planning,8/21/17 9:00,33.5,51000,30.5,50000,-0.06
+21,Marketing - Launch of new product,Estonia,Phase 2 - Initiation,9/24/17 9:00,25.5,102000,23,100000,-0.06
+22,Marketing - Launch of new product,Brazil,Phase 3 - Implementation,7/25/17 9:00,28,163500,22.5,150000,-0.14
+20,Marketing - Launch of new product,Colombia,Phase 3 - Implementation,8/13/17 9:00,26,183000,22.5,150000,-0.03
+23,Marketing - Launch of new product,Switzerland,Phase 2 - Initiation,4/28/18 9:00,56.5,244000,46,200000,-0.06
+24,Marketing - Launch of new product,Ukraine,Phase 2 - Initiation,3/18/18 9:00,22,103000,23,100000,-0.12
+25,Marketing - Launch of new product,Togo,Phase 3 - Implementation,03/01/2018 09:00,16,116000,15,100000,-0.07
+26,Marketing - Launch of new product,Japan,Phase 4 - Manufacturing,12/08/2017 09:00,42.5,981000,36,900000,-0.06
+16,Marketing - Launch of new product,Cote d'Ivoire,Phase 3 - Implementation,08/05/2017 09:00,18,130000,15,100000,-0.02
+3,Marketing - Launch of new product,Lebanon,Phase 1 - Planning,11/13/17 9:00,40,63000,30.5,50000,-0.05
+3,Marketing - Launch of new product,Lebanon,Phase 2 - Initiation,12/23/17 9:00,30,126000,23,100000,-0.05
+6,Marketing - Launch of new product,Albania,Phase 1 - Planning,06/12/2017 09:00,36.5,61500,30.5,50000,-0.13
+6,Marketing - Launch of new product,Albania,Phase 2 - Initiation,7/19/17 9:00,27.5,123000,23,100000,-0.13
+17,Marketing - Launch of new product,Spain,Phase 2 - Initiation,10/16/17 9:00,42,196000,46,200000,-0.01
+12,Marketing - Launch of new product,Hungary,Phase 1 - Planning,9/18/17 9:00,66,45500,61,50000,-0.06
+12,Marketing - Launch of new product,Hungary,Phase 2 - Initiation,11/23/17 9:00,50,91000,46,100000,-0.06
+27,Marketing - Launch of new product,La Reunion,Phase 4 - Manufacturing,12/12/2017 09:00,23,468000,18,450000,0
+28,Marketing - Launch of new product,Russia,Phase 4 - Manufacturing,03/05/2018 09:00,44.5,918000,36,900000,-0.12
+11,Marketing - Launch of new product,Italy,Phase 2 - Initiation,12/20/17 9:00,49,224000,46,200000,-0.13
+27,Marketing - Launch of new product,La Reunion,Phase 1 - Planning,11/13/17 9:00,38.5,52000,30.5,50000,0
+28,Marketing - Launch of new product,Russia,Phase 3 - Implementation,03/06/2018 09:00,55.5,306000,45,300000,-0.12
+19,Marketing - Launch of new product,Czech Republic,Phase 2 - Initiation,03/07/2018 09:00,43.5,202000,46,200000,-0.01
+29,Marketing - Launch of new product,Indonesia,Phase 1 - Planning,10/16/17 9:00,34.5,58500,30.5,50000,-0.1
+29,Marketing - Launch of new product,Indonesia,Phase 2 - Initiation,11/20/17 9:00,26,117000,23,100000,-0.1
+30,Marketing - Launch of new product,Canada,Phase 1 - Planning,6/26/17 9:00,78.5,103000,61,100000,-0.12
+30,Marketing - Launch of new product,Canada,Phase 2 - Initiation,9/13/17 9:00,59,206000,46,200000,-0.12
+31,Marketing - Launch of new product,China,Phase 4 - Manufacturing,8/15/17 9:00,40,999000,36,900000,-0.05
+27,Marketing - Launch of new product,La Reunion,Phase 2 - Initiation,12/22/17 9:00,29,104000,23,100000,0
+28,Marketing - Launch of new product,Russia,Phase 1 - Planning,01/08/2018 09:00,75.5,102000,61,100000,-0.12
+28,Marketing - Launch of new product,Russia,Phase 2 - Initiation,3/25/18 9:00,57,204000,46,200000,-0.12
+18,Marketing - Launch of new product,Gabon,Phase 2 - Initiation,9/16/17 9:00,19.5,63333.33333,15.5,66666.66667,-0.11
+21,Marketing - Launch of new product,Estonia,Phase 3 - Implementation,9/16/17 9:00,25,153000,22.5,150000,-0.06
+22,Marketing - Launch of new product,Brazil,Phase 4 - Manufacturing,7/24/17 9:00,22.5,490500,18,450000,-0.14
+20,Marketing - Launch of new product,Colombia,Phase 4 - Manufacturing,08/12/2017 09:00,21,549000,18,450000,-0.03
+32,Marketing - Launch of new product,Turkey,Phase 1 - Planning,2/17/18 9:00,33.5,63500,30.5,50000,-0.05
+17,Marketing - Launch of new product,Spain,Phase 3 - Implementation,10/02/2017 09:00,41,294000,45,300000,-0.01
+12,Marketing - Launch of new product,Hungary,Phase 3 - Implementation,11/07/2017 09:00,49,136500,45,150000,-0.06
+18,Marketing - Launch of new product,Gabon,Phase 3 - Implementation,09/10/2017 09:00,19,95000,15,100000,-0.11
+22,Marketing - Launch of new product,Brazil,Phase 1 - Planning,6/26/17 9:00,38,54500,30.5,50000,-0.14
+22,Marketing - Launch of new product,Brazil,Phase 2 - Initiation,08/03/2017 09:00,28.5,109000,23,100000,-0.14
+31,Marketing - Launch of new product,China,Phase 2 - Initiation,09/02/2017 09:00,51,222000,46,200000,-0.05
+6,Marketing - Launch of new product,Albania,Phase 3 - Implementation,07/10/2017 09:00,27,184500,22.5,150000,-0.13
+17,Marketing - Launch of new product,Spain,Phase 1 - Planning,8/21/17 9:00,56,98000,61,100000,-0.01
+27,Marketing - Launch of new product,La Reunion,Phase 3 - Implementation,12/12/2017 09:00,28.5,156000,22.5,150000,0
+18,Marketing - Launch of new product,Gabon,Phase 4 - Manufacturing,09/09/2017 09:00,15,285000,12,300000,-0.11
+21,Marketing - Launch of new product,Estonia,Phase 4 - Manufacturing,9/15/17 9:00,20,459000,18,450000,-0.06
+31,Marketing - Launch of new product,China,Phase 1 - Planning,6/26/17 9:00,67.5,111000,61,100000,-0.05
+33,Marketing - Launch of new product,Malta,Phase 2 - Initiation,01/03/2018 09:00,23,90000,23,100000,-0.14
+32,Marketing - Launch of new product,Turkey,Phase 2 - Initiation,3/23/18 9:00,25.5,127000,23,100000,-0.05
+34,Marketing - Launch of new product,Israel,Phase 1 - Planning,10/16/17 9:00,62,108000,61,100000,-0.03
+34,Marketing - Launch of new product,Israel,Phase 2 - Initiation,12/17/17 9:00,46.5,216000,46,200000,-0.03
+35,Marketing - Launch of new product,Norway,Phase 2 - Initiation,1/31/18 9:00,44,206000,46,200000,-0.11
+33,Marketing - Launch of new product,Malta,Phase 4 - Manufacturing,12/27/17 9:00,18,405000,18,450000,-0.14
+36,Marketing - Launch of new product,Portugal,Phase 1 - Planning,01/08/2018 09:00,68,52500,61,50000,-0.01
+37,Marketing - Launch of new product,Poland,Phase 1 - Planning,12/04/2017 09:00,58,63000,61,50000,-0.04
+38,Marketing - Launch of new product,Greece,Phase 3 - Implementation,11/16/17 9:00,57.5,136500,45,150000,-0.05
+10,Marketing - Launch of new product,Benin,Phase 2 - Initiation,07/05/2017 09:00,17.5,62000,15.5,66666.66667,-0.12
+11,Marketing - Launch of new product,Italy,Phase 1 - Planning,10/16/17 9:00,65,112000,61,100000,-0.13
+13,Marketing - Launch of new product,Malaysia,Phase 3 - Implementation,01/03/2018 09:00,29.5,136500,22.5,150000,0
+19,Marketing - Launch of new product,Czech Republic,Phase 4 - Manufacturing,2/20/18 9:00,34,909000,36,900000,-0.01
+29,Marketing - Launch of new product,Indonesia,Phase 4 - Manufacturing,11/11/2017 09:00,20.5,526500,18,450000,-0.1
+30,Marketing - Launch of new product,Canada,Phase 4 - Manufacturing,8/23/17 9:00,46.5,927000,36,900000,-0.12
+20,Marketing - Launch of new product,Colombia,Phase 2 - Initiation,8/21/17 9:00,26.5,122000,23,100000,-0.03
+33,Marketing - Launch of new product,Malta,Phase 1 - Planning,12/04/2017 09:00,30,45000,30.5,50000,-0.14
+39,Marketing - Launch of new product,Denmark,Phase 4 - Manufacturing,09/07/2017 09:00,41.5,1062000,36,900000,-0.07
+40,Marketing - Launch of new product,Senegal,Phase 3 - Implementation,1/26/18 9:00,18,108000,15,100000,-0.12
+41,Marketing - Launch of new product,Slovakia,Phase 4 - Manufacturing,04/06/2018 09:00,42.5,1071000,36,900000,-0.11
+42,Marketing - Launch of new product,Lithuania,Phase 4 - Manufacturing,12/07/2017 09:00,19,576000,18,450000,-0.08
+19,Marketing - Launch of new product,Czech Republic,Phase 1 - Planning,01/08/2018 09:00,57.5,101000,61,100000,-0.01
+29,Marketing - Launch of new product,Indonesia,Phase 3 - Implementation,11/11/2017 09:00,25.5,175500,22.5,150000,-0.1
+30,Marketing - Launch of new product,Canada,Phase 3 - Implementation,8/24/17 9:00,58,309000,45,300000,-0.12
+31,Marketing - Launch of new product,China,Phase 3 - Implementation,8/16/17 9:00,49.5,333000,45,300000,-0.05
+43,Marketing - Launch of new product,Luxembourg,Phase 3 - Implementation,01/08/2018 09:00,54,378000,45,300000,0
+23,Marketing - Launch of new product,Switzerland,Phase 1 - Planning,02/12/2018 09:00,74.5,122000,61,100000,-0.06
+24,Marketing - Launch of new product,Ukraine,Phase 1 - Planning,2/17/18 9:00,29,51500,30.5,50000,-0.12
+43,Marketing - Launch of new product,Luxembourg,Phase 4 - Manufacturing,01/06/2018 09:00,43.5,1134000,36,900000,0
+23,Marketing - Launch of new product,Switzerland,Phase 3 - Implementation,04/10/2018 09:00,55,366000,45,300000,-0.06
+24,Marketing - Launch of new product,Ukraine,Phase 3 - Implementation,03/11/2018 09:00,21.5,154500,22.5,150000,-0.12
+26,Marketing - Launch of new product,Japan,Phase 2 - Initiation,12/27/17 9:00,54,218000,46,200000,-0.06
+35,Marketing - Launch of new product,Norway,Phase 3 - Implementation,1/17/18 9:00,43,309000,45,300000,-0.11
+39,Marketing - Launch of new product,Denmark,Phase 3 - Implementation,09/08/2017 09:00,51.5,354000,45,300000,-0.07
+36,Marketing - Launch of new product,Portugal,Phase 2 - Initiation,3/17/18 9:00,51.5,105000,46,100000,-0.01
+25,Marketing - Launch of new product,Togo,Phase 4 - Manufacturing,2/28/18 9:00,13,348000,12,300000,-0.07
+26,Marketing - Launch of new product,Japan,Phase 3 - Implementation,12/09/2017 09:00,53,327000,45,300000,-0.06
+44,Marketing - Launch of new product,Jordan,Phase 3 - Implementation,11/07/2017 09:00,21.5,162000,22.5,150000,-0.14
+39,Marketing - Launch of new product,Denmark,Phase 2 - Initiation,9/25/17 9:00,52.5,236000,46,200000,-0.07
+45,Marketing - Launch of new product,Gambia,Phase 3 - Implementation,10/02/2017 09:00,13.5,127000,15,100000,-0.07
+40,Marketing - Launch of new product,Senegal,Phase 1 - Planning,01/08/2018 09:00,24,36000,20.5,33333.33333,-0.12
+40,Marketing - Launch of new product,Senegal,Phase 2 - Initiation,02/01/2018 09:00,18,72000,15.5,66666.66667,-0.12
+46,Marketing - Launch of new product,Macedonia,Phase 4 - Manufacturing,12/07/2017 09:00,19,585000,18,450000,-0.14
+41,Marketing - Launch of new product,Slovakia,Phase 2 - Initiation,4/25/18 9:00,54,238000,46,200000,-0.11
+43,Marketing - Launch of new product,Luxembourg,Phase 2 - Initiation,1/26/18 9:00,55.5,252000,46,200000,0
+33,Marketing - Launch of new product,Malta,Phase 3 - Implementation,12/27/17 9:00,22.5,135000,22.5,150000,-0.14
+32,Marketing - Launch of new product,Turkey,Phase 3 - Implementation,3/15/18 9:00,25,190500,22.5,150000,-0.05
+35,Marketing - Launch of new product,Norway,Phase 1 - Planning,12/04/2017 09:00,58,103000,61,100000,-0.11
+36,Marketing - Launch of new product,Portugal,Phase 3 - Implementation,03/01/2018 09:00,50,157500,45,150000,-0.01
+37,Marketing - Launch of new product,Poland,Phase 3 - Implementation,1/17/18 9:00,43,189000,45,150000,-0.04
+43,Marketing - Launch of new product,Luxembourg,Phase 1 - Planning,11/13/17 9:00,73.5,126000,61,100000,0
+32,Marketing - Launch of new product,Turkey,Phase 4 - Manufacturing,3/14/18 9:00,20,571500,18,450000,-0.05
+25,Marketing - Launch of new product,Togo,Phase 1 - Planning,02/12/2018 09:00,21.5,38666.66667,20.5,33333.33333,-0.07
+34,Marketing - Launch of new product,Israel,Phase 4 - Manufacturing,12/01/2017 09:00,36.5,972000,36,900000,-0.03
+44,Marketing - Launch of new product,Jordan,Phase 1 - Planning,10/16/17 9:00,29,54000,30.5,50000,-0.14
+35,Marketing - Launch of new product,Norway,Phase 4 - Manufacturing,1/16/18 9:00,34.5,927000,36,900000,-0.11
+47,Marketing - Launch of new product,Niger,Phase 4 - Manufacturing,12/20/17 9:00,12.5,270000,12,300000,-0.11
+23,Marketing - Launch of new product,Switzerland,Phase 4 - Manufacturing,04/08/2018 09:00,44,1098000,36,900000,-0.06
+24,Marketing - Launch of new product,Ukraine,Phase 4 - Manufacturing,03/11/2018 09:00,17,463500,18,450000,-0.12
+34,Marketing - Launch of new product,Israel,Phase 3 - Implementation,12/02/2017 09:00,45.5,324000,45,300000,-0.03
+44,Marketing - Launch of new product,Jordan,Phase 4 - Manufacturing,11/07/2017 09:00,17,486000,18,450000,-0.14
+45,Marketing - Launch of new product,Gambia,Phase 4 - Manufacturing,10/02/2017 09:00,11,381000,12,300000,-0.07
+46,Marketing - Launch of new product,Macedonia,Phase 2 - Initiation,12/15/17 9:00,24,130000,23,100000,-0.14
+48,Marketing - Launch of new product,Slovenia,Phase 2 - Initiation,4/20/18 9:00,50.5,220000,46,200000,-0.13
+40,Marketing - Launch of new product,Senegal,Phase 4 - Manufacturing,1/26/18 9:00,14.5,324000,12,300000,-0.12
+25,Marketing - Launch of new product,Togo,Phase 2 - Initiation,03/06/2018 09:00,16.5,77333.33333,15.5,66666.66667,-0.07
+26,Marketing - Launch of new product,Japan,Phase 1 - Planning,10/16/17 9:00,71.5,109000,61,100000,-0.06
+44,Marketing - Launch of new product,Jordan,Phase 2 - Initiation,11/14/17 9:00,22,108000,23,100000,-0.14
+39,Marketing - Launch of new product,Denmark,Phase 1 - Planning,7/17/17 9:00,70,118000,61,100000,-0.07
+45,Marketing - Launch of new product,Gambia,Phase 2 - Initiation,10/07/2017 09:00,14,84666.66667,15.5,66666.66667,-0.07
+37,Marketing - Launch of new product,Poland,Phase 2 - Initiation,1/31/18 9:00,44,126000,46,100000,-0.04
+46,Marketing - Launch of new product,Macedonia,Phase 3 - Implementation,12/07/2017 09:00,23.5,195000,22.5,150000,-0.14
+41,Marketing - Launch of new product,Slovakia,Phase 1 - Planning,02/12/2018 09:00,71.5,119000,61,100000,-0.11
+48,Marketing - Launch of new product,Slovenia,Phase 3 - Implementation,04/04/2018 09:00,49.5,330000,45,300000,-0.13
+49,Marketing - Launch of new product,Mauritius,Phase 1 - Planning,9/18/17 9:00,29,57500,30.5,50000,-0.14
+50,Marketing - Launch of new product,Serbia,Phase 4 - Manufacturing,02/03/2018 09:00,20.5,576000,18,450000,-0.05
+38,Marketing - Launch of new product,Greece,Phase 2 - Initiation,12/05/2017 09:00,58.5,91000,46,100000,-0.05
+49,Marketing - Launch of new product,Mauritius,Phase 3 - Implementation,10/10/2017 09:00,21.5,172500,22.5,150000,-0.14
+42,Marketing - Launch of new product,Lithuania,Phase 1 - Planning,11/13/17 9:00,32,64000,30.5,50000,-0.08
+42,Marketing - Launch of new product,Lithuania,Phase 2 - Initiation,12/15/17 9:00,24,128000,23,100000,-0.08
+51,Marketing - Launch of new product,Sweden,Phase 1 - Planning,02/12/2018 09:00,77.5,116000,61,100000,-0.13
+51,Marketing - Launch of new product,Sweden,Phase 2 - Initiation,05/01/2018 09:00,58.5,232000,46,200000,-0.13
+42,Marketing - Launch of new product,Lithuania,Phase 3 - Implementation,12/07/2017 09:00,23.5,192000,22.5,150000,-0.08
+45,Marketing - Launch of new product,Gambia,Phase 1 - Planning,9/18/17 9:00,18.5,42333.33333,20.5,33333.33333,-0.07
+36,Marketing - Launch of new product,Portugal,Phase 4 - Manufacturing,2/27/18 9:00,40,472500,36,450000,-0.01
+46,Marketing - Launch of new product,Macedonia,Phase 1 - Planning,11/13/17 9:00,32,65000,30.5,50000,-0.14
+37,Marketing - Launch of new product,Poland,Phase 4 - Manufacturing,1/16/18 9:00,34.5,567000,36,450000,-0.04
+48,Marketing - Launch of new product,Slovenia,Phase 1 - Planning,02/12/2018 09:00,66.5,110000,61,100000,-0.13
+38,Marketing - Launch of new product,Greece,Phase 4 - Manufacturing,11/15/17 9:00,46,409500,36,450000,-0.05
+50,Marketing - Launch of new product,Serbia,Phase 1 - Planning,01/08/2018 09:00,34.5,64000,30.5,50000,-0.05
+50,Marketing - Launch of new product,Serbia,Phase 2 - Initiation,02/12/2018 09:00,26,128000,23,100000,-0.05
+48,Marketing - Launch of new product,Slovenia,Phase 4 - Manufacturing,04/03/2018 09:00,39.5,990000,36,900000,-0.13
+47,Marketing - Launch of new product,Niger,Phase 1 - Planning,12/04/2017 09:00,21.5,30000,20.5,33333.33333,-0.11
+47,Marketing - Launch of new product,Niger,Phase 2 - Initiation,12/26/17 9:00,16,60000,15.5,66666.66667,-0.11
+41,Marketing - Launch of new product,Slovakia,Phase 3 - Implementation,04/07/2018 09:00,53,357000,45,300000,-0.11
+38,Marketing - Launch of new product,Greece,Phase 1 - Planning,9/18/17 9:00,77.5,45500,61,50000,-0.05
+49,Marketing - Launch of new product,Mauritius,Phase 2 - Initiation,10/17/17 9:00,22,115000,23,100000,-0.14
+50,Marketing - Launch of new product,Serbia,Phase 3 - Implementation,02/03/2018 09:00,25.5,192000,22.5,150000,-0.05
+49,Marketing - Launch of new product,Mauritius,Phase 4 - Manufacturing,10/10/2017 09:00,17,517500,18,450000,-0.14
+47,Marketing - Launch of new product,Niger,Phase 3 - Implementation,12/20/17 9:00,16,90000,15,100000,-0.11
+51,Marketing - Launch of new product,Sweden,Phase 4 - Manufacturing,04/11/2018 09:00,46,1044000,36,900000,-0.13
+51,Marketing - Launch of new product,Sweden,Phase 3 - Implementation,04/12/2018 09:00,57.5,348000,45,300000,-0.13
+52,IT -  CRM Implementation,France,Initiation,01/04/2018 09:00,11.5,854,11.5,700,-0.12
+52,IT -  CRM Implementation,France,Preparation,8/21/17 9:00,136,19642,125,16100,-0.12
+52,IT -  CRM Implementation,France,Development,09/02/2017 09:00,98.5,25620,97.5,21000,-0.12
+52,IT -  CRM Implementation,France,Testing,11/28/17 9:00,36.5,6832,9.5,5600,-0.12
+52,IT -  CRM Implementation,France,Deployment,9/27/17 9:00,22.5,0,18.5,0,-0.12
+52,IT -  CRM Implementation,France,Post-deployment,9/13/17 9:00,9,3416,9,2800,-0.12
+53,IT -  CRM Implementation,Belgium,Initiation,10/20/17 9:00,11,749,11,700,-0.08
+53,IT -  CRM Implementation,Belgium,Preparation,06/12/2017 09:00,130,17227,127,16100,-0.08
+53,IT -  CRM Implementation,Belgium,Development,6/23/17 9:00,94,22470,89,21000,-0.08
+53,IT -  CRM Implementation,Belgium,Testing,9/14/17 9:00,35,5992,15.5,5600,-0.08
+53,IT -  CRM Implementation,Belgium,Deployment,7/17/17 9:00,21.5,0,19.5,0,-0.08
+53,IT -  CRM Implementation,Belgium,Post-deployment,07/04/2017 09:00,8.5,2996,8.5,2800,-0.08
+54,IT -  CRM Implementation,Holland,Initiation,1/18/18 9:00,10,798,10,700,-0.04
+54,IT -  CRM Implementation,Holland,Preparation,9/18/17 9:00,122,18354,114,16100,-0.04
+54,IT -  CRM Implementation,Holland,Development,9/28/17 9:00,88.5,23940,86.5,21000,-0.04
+54,IT -  CRM Implementation,Holland,Testing,12/16/17 9:00,32.5,6384,32,5600,-0.04
+54,IT -  CRM Implementation,Holland,Deployment,10/21/17 9:00,20,0,20,0,-0.04
+54,IT -  CRM Implementation,Holland,Post-deployment,10/08/2017 09:00,8,3192,8,2800,-0.04
+55,IT -  CRM Implementation,Luxembourg,Initiation,04/03/2018 09:00,11.5,847,11.5,700,0
+55,IT -  CRM Implementation,Luxembourg,Preparation,11/13/17 9:00,140.5,19481,106.5,16100,0
+55,IT -  CRM Implementation,Luxembourg,Development,11/25/17 9:00,102,25410,99,21000,0
+55,IT -  CRM Implementation,Luxembourg,Testing,2/23/18 9:00,37.5,6776,21,5600,0
+55,IT -  CRM Implementation,Luxembourg,Deployment,12/21/17 9:00,23,0,23,0,0
+55,IT -  CRM Implementation,Luxembourg,Post-deployment,12/06/2017 09:00,9.5,3388,9.5,2800,0
+56,IT -  CRM Implementation,Italy,Initiation,02/10/2018 09:00,10,665,10,700,-0.06
+56,IT -  CRM Implementation,Italy,Preparation,10/16/17 9:00,117,15295,117,16100,-0.06
+56,IT -  CRM Implementation,Italy,Development,10/26/17 9:00,85,19950,85,21000,-0.06
+56,IT -  CRM Implementation,Italy,Testing,01/09/2018 09:00,31.5,5320,31.5,5600,-0.06
+56,IT -  CRM Implementation,Italy,Deployment,11/17/17 9:00,19.5,0,19.5,0,-0.06
+56,IT -  CRM Implementation,Italy,Post-deployment,11/05/2017 09:00,8,2660,8,2800,-0.06
+57,IT -  CRM Implementation,Japan,Initiation,3/14/18 9:00,12.5,679,12.5,700,-0.04
+57,IT -  CRM Implementation,Japan,Preparation,10/16/17 9:00,148.5,15617,112.5,16100,-0.04
+57,IT -  CRM Implementation,Japan,Development,10/29/17 9:00,108,20370,102,21000,-0.04
+57,IT -  CRM Implementation,Japan,Testing,02/01/2018 09:00,40,5432,15.5,5600,-0.04
+57,IT -  CRM Implementation,Japan,Deployment,11/25/17 9:00,24.5,0,18.5,0,-0.04
+57,IT -  CRM Implementation,Japan,Post-deployment,11/10/2017 09:00,10,2716,10,2800,-0.04
+58,IT -  CRM Implementation,Spain,Initiation,01/01/2018 09:00,11,805,11,700,-0.13
+58,IT -  CRM Implementation,Spain,Preparation,8/21/17 9:00,132.5,18515,105.5,16100,-0.13
+58,IT -  CRM Implementation,Spain,Development,09/01/2017 09:00,96,24150,93,21000,-0.13
+58,IT -  CRM Implementation,Spain,Testing,11/25/17 9:00,35.5,6440,33.5,5600,-0.13
+58,IT -  CRM Implementation,Spain,Deployment,9/26/17 9:00,22,0,19,0,-0.13
+58,IT -  CRM Implementation,Spain,Post-deployment,09/12/2017 09:00,9,3220,9,2800,-0.13
+59,IT -  CRM Implementation,Hungary,Initiation,2/17/18 9:00,12.5,339.5,12.5,350,-0.07
+59,IT -  CRM Implementation,Hungary,Preparation,9/18/17 9:00,152,7808.5,93,8050,-0.07
+59,IT -  CRM Implementation,Hungary,Development,10/01/2017 09:00,110.5,10185,92.5,10500,-0.07
+59,IT -  CRM Implementation,Hungary,Testing,01/07/2018 09:00,41,2716,44,2800,-0.07
+59,IT -  CRM Implementation,Hungary,Deployment,10/29/17 9:00,25,0,18,0,-0.07
+59,IT -  CRM Implementation,Hungary,Post-deployment,10/13/17 9:00,10,1358,10,1400,-0.07
+60,IT -  CRM Implementation,Poland,Initiation,05/02/2018 09:00,12.5,416.5,12.5,350,-0.12
+60,IT -  CRM Implementation,Poland,Preparation,12/04/2017 09:00,148.5,9579.5,104.5,8050,-0.12
+60,IT -  CRM Implementation,Poland,Development,12/17/17 9:00,108,12495,79,10500,-0.12
+60,IT -  CRM Implementation,Poland,Testing,3/22/18 9:00,40,3332,43.5,2800,-0.12
+60,IT -  CRM Implementation,Poland,Deployment,1/13/18 9:00,24.5,0,21.5,0,-0.12
+60,IT -  CRM Implementation,Poland,Post-deployment,12/29/17 9:00,10,1666,10,1400,-0.12
+61,IT -  CRM Implementation,Czech Republic,Initiation,5/22/18 9:00,11,770,11,700,-0.09
+61,IT -  CRM Implementation,Czech Republic,Preparation,01/08/2018 09:00,133.5,17710,116.5,16100,-0.09
+61,IT -  CRM Implementation,Czech Republic,Development,1/19/18 9:00,97,23100,92,21000,-0.09
+61,IT -  CRM Implementation,Czech Republic,Testing,4/15/18 9:00,36,6160,22,5600,-0.09
+61,IT -  CRM Implementation,Czech Republic,Deployment,2/13/18 9:00,22,0,20,0,-0.09
+61,IT -  CRM Implementation,Czech Republic,Post-deployment,1/30/18 9:00,9,3080,9,2800,-0.09
+62,IT -  CRM Implementation,Slovakia,Initiation,07/11/2018 09:00,12.5,889,12.5,700,-0.11
+62,IT -  CRM Implementation,Slovakia,Preparation,02/12/2018 09:00,148.5,20447,128.5,16100,-0.11
+62,IT -  CRM Implementation,Slovakia,Development,2/25/18 9:00,108,26670,90,21000,-0.11
+62,IT -  CRM Implementation,Slovakia,Testing,5/31/18 9:00,40,7112,10.5,5600,-0.11
+62,IT -  CRM Implementation,Slovakia,Deployment,3/24/18 9:00,24.5,0,19.5,0,-0.11
+62,IT -  CRM Implementation,Slovakia,Post-deployment,03/09/2018 09:00,10,3556,10,2800,-0.11
+63,IT -  CRM Implementation,Germany,Initiation,10/27/17 9:00,11.5,784,11.5,700,-0.15
+63,IT -  CRM Implementation,Germany,Preparation,06/12/2017 09:00,137,18032,108,16100,-0.15
+63,IT -  CRM Implementation,Germany,Development,6/24/17 9:00,99.5,23520,83.5,21000,-0.15
+63,IT -  CRM Implementation,Germany,Testing,9/20/17 9:00,37,6272,38,5600,-0.15
+63,IT -  CRM Implementation,Germany,Deployment,7/19/17 9:00,22.5,0,20.5,0,-0.15
+63,IT -  CRM Implementation,Germany,Post-deployment,07/05/2017 09:00,9,3136,9,2800,-0.15
+64,IT -  CRM Implementation,Serbia,Initiation,03/09/2018 09:00,5,423.5,5,350,-0.09
+64,IT -  CRM Implementation,Serbia,Preparation,01/08/2018 09:00,60,9740.5,60,8050,-0.09
+64,IT -  CRM Implementation,Serbia,Development,1/13/18 9:00,43.5,12705,42.5,10500,-0.09
+64,IT -  CRM Implementation,Serbia,Testing,2/21/18 9:00,16,3388,14.5,2800,-0.09
+64,IT -  CRM Implementation,Serbia,Deployment,1/24/18 9:00,10,0,10,0,-0.09
+64,IT -  CRM Implementation,Serbia,Post-deployment,1/18/18 9:00,4,1694,4,1400,-0.09
+65,IT -  CRM Implementation,Croatia,Initiation,09/09/2017 09:00,4.5,420,4.5,350,-0.15
+65,IT -  CRM Implementation,Croatia,Preparation,7/17/17 9:00,54,9660,62,8050,-0.15
+65,IT -  CRM Implementation,Croatia,Development,7/22/17 9:00,39,12600,42,10500,-0.15
+65,IT -  CRM Implementation,Croatia,Testing,8/25/17 9:00,14.5,3360,14.5,2800,-0.15
+65,IT -  CRM Implementation,Croatia,Deployment,08/01/2017 09:00,9,0,9,0,-0.15
+65,IT -  CRM Implementation,Croatia,Post-deployment,7/26/17 9:00,4,1680,4,1400,-0.15
+66,IT -  CRM Implementation,Slovenia,Initiation,07/07/2018 09:00,12,896,12,700,-0.07
+66,IT -  CRM Implementation,Slovenia,Preparation,02/12/2018 09:00,145,20608,139,16100,-0.07
+66,IT -  CRM Implementation,Slovenia,Development,2/24/18 9:00,105,26880,81,21000,-0.07
+66,IT -  CRM Implementation,Slovenia,Testing,5/28/18 9:00,39,7168,6.5,5600,-0.07
+66,IT -  CRM Implementation,Slovenia,Deployment,3/23/18 9:00,24,0,22,0,-0.07
+66,IT -  CRM Implementation,Slovenia,Post-deployment,03/08/2018 09:00,9.5,3584,9.5,2800,-0.07
+67,IT -  CRM Implementation,Macedonia,Initiation,01/07/2018 09:00,4.5,385,4.5,350,0
+67,IT -  CRM Implementation,Macedonia,Preparation,11/13/17 9:00,55,8855,55,8050,0
+67,IT -  CRM Implementation,Macedonia,Development,11/18/17 9:00,40,11550,43,10500,0
+67,IT -  CRM Implementation,Macedonia,Testing,12/23/17 9:00,15,3080,20,2800,0
+67,IT -  CRM Implementation,Macedonia,Deployment,11/28/17 9:00,9,0,9,0,0
+67,IT -  CRM Implementation,Macedonia,Post-deployment,11/22/17 9:00,4,1540,4,1400,0
+68,IT -  CRM Implementation,Albania,Initiation,8/25/17 9:00,6,336,6,350,-0.07
+68,IT -  CRM Implementation,Albania,Preparation,06/12/2017 09:00,73.5,7728,59.5,8050,-0.07
+68,IT -  CRM Implementation,Albania,Development,6/18/17 9:00,53,10080,49,10500,-0.07
+68,IT -  CRM Implementation,Albania,Testing,08/04/2017 09:00,20,2688,7,2800,-0.07
+68,IT -  CRM Implementation,Albania,Deployment,07/02/2017 09:00,12,0,9,0,-0.07
+68,IT -  CRM Implementation,Albania,Post-deployment,6/24/17 9:00,5,1344,5,1400,-0.07
+69,IT -  CRM Implementation,Canada,Initiation,11/09/2017 09:00,11.5,791,11.5,700,-0.03
+69,IT -  CRM Implementation,Canada,Preparation,6/26/17 9:00,136,18193,128,16100,-0.03
+69,IT -  CRM Implementation,Canada,Development,07/08/2017 09:00,98.5,23730,92.5,21000,-0.03
+69,IT -  CRM Implementation,Canada,Testing,10/03/2017 09:00,36.5,6328,10.5,5600,-0.03
+69,IT -  CRM Implementation,Canada,Deployment,08/02/2017 09:00,22.5,0,19.5,0,-0.03
+69,IT -  CRM Implementation,Canada,Post-deployment,7/19/17 9:00,9,3164,9,2800,-0.03
+70,IT -  CRM Implementation,Malta,Initiation,02/11/2018 09:00,6,420,6,350,-0.13
+70,IT -  CRM Implementation,Malta,Preparation,12/04/2017 09:00,69,9660,51,8050,-0.13
+70,IT -  CRM Implementation,Malta,Development,12/10/2017 09:00,50,12600,43,10500,-0.13
+70,IT -  CRM Implementation,Malta,Testing,1/23/18 9:00,18.5,3360,19.5,2800,-0.13
+70,IT -  CRM Implementation,Malta,Deployment,12/23/17 9:00,11.5,0,11.5,0,-0.13
+70,IT -  CRM Implementation,Malta,Post-deployment,12/16/17 9:00,5,1680,5,1400,-0.13
+71,IT -  CRM Implementation,Turkey,Initiation,05/04/2018 09:00,6.5,325.5,6.5,350,-0.14
+71,IT -  CRM Implementation,Turkey,Preparation,2/17/18 9:00,75.5,7486.5,60,8050,-0.14
+71,IT -  CRM Implementation,Turkey,Development,2/24/18 9:00,55,9765,44,10500,-0.14
+71,IT -  CRM Implementation,Turkey,Testing,4/13/18 9:00,20.5,2604,7.5,2800,-0.14
+71,IT -  CRM Implementation,Turkey,Deployment,03/10/2018 09:00,12.5,0,12.5,0,-0.14
+71,IT -  CRM Implementation,Turkey,Post-deployment,03/02/2018 09:00,5,1302,5,1400,-0.14
+72,IT -  CRM Implementation,Greece,Initiation,1/20/18 9:00,10.5,448,10.5,350,-0.1
+72,IT -  CRM Implementation,Greece,Preparation,9/18/17 9:00,124,10304,114,8050,-0.1
+72,IT -  CRM Implementation,Greece,Development,9/29/17 9:00,90,13440,89,10500,-0.1
+72,IT -  CRM Implementation,Greece,Testing,12/17/17 9:00,33.5,3584,28,2800,-0.1
+72,IT -  CRM Implementation,Greece,Deployment,10/22/17 9:00,20.5,0,20.5,0,-0.1
+72,IT -  CRM Implementation,Greece,Post-deployment,10/09/2017 09:00,8.5,1792,8.5,1400,-0.1
+73,IT -  CRM Implementation,Portugal,Initiation,4/25/18 9:00,9,420,9,350,-0.03
+73,IT -  CRM Implementation,Portugal,Preparation,01/08/2018 09:00,106.5,9660,110.5,8050,-0.03
+73,IT -  CRM Implementation,Portugal,Development,1/17/18 9:00,77.5,12600,85.5,10500,-0.03
+73,IT -  CRM Implementation,Portugal,Testing,3/27/18 9:00,28.5,3360,41,2800,-0.03
+73,IT -  CRM Implementation,Portugal,Deployment,02/06/2018 09:00,17.5,0,17.5,0,-0.03
+73,IT -  CRM Implementation,Portugal,Post-deployment,1/26/18 9:00,7,1680,7,1400,-0.03
+74,IT -  CRM Implementation,Ukraine,Initiation,05/04/2018 09:00,6.5,357,6.5,350,0
+74,IT -  CRM Implementation,Ukraine,Preparation,2/17/18 9:00,76,8211,45,8050,0
+74,IT -  CRM Implementation,Ukraine,Development,2/24/18 9:00,55.5,10710,49.5,10500,0
+74,IT -  CRM Implementation,Ukraine,Testing,4/14/18 9:00,20.5,2856,19,2800,0
+74,IT -  CRM Implementation,Ukraine,Deployment,03/10/2018 09:00,12.5,0,10.5,0,0
+74,IT -  CRM Implementation,Ukraine,Post-deployment,03/02/2018 09:00,5,1428,5,1400,0
+75,IT -  CRM Implementation,Russia,Initiation,4/24/18 9:00,9,665,9,700,-0.12
+75,IT -  CRM Implementation,Russia,Preparation,01/08/2018 09:00,105.5,15295,120.5,16100,-0.12
+75,IT -  CRM Implementation,Russia,Development,1/17/18 9:00,76.5,19950,85.5,21000,-0.12
+75,IT -  CRM Implementation,Russia,Testing,3/26/18 9:00,28.5,5320,30.5,5600,-0.12
+75,IT -  CRM Implementation,Russia,Deployment,02/06/2018 09:00,17.5,0,18.5,0,-0.12
+75,IT -  CRM Implementation,Russia,Post-deployment,1/26/18 9:00,7,2660,7,2800,-0.12
+76,IT -  CRM Implementation,Belarus,Initiation,8/26/17 9:00,5,448,5,350,-0.12
+76,IT -  CRM Implementation,Belarus,Preparation,6/26/17 9:00,60.5,10304,57.5,8050,-0.12
+76,IT -  CRM Implementation,Belarus,Development,07/01/2017 09:00,44,13440,44,10500,-0.12
+76,IT -  CRM Implementation,Belarus,Testing,08/09/2017 09:00,16.5,3584,15.5,2800,-0.12
+76,IT -  CRM Implementation,Belarus,Deployment,7/13/17 9:00,10,0,10,0,-0.12
+76,IT -  CRM Implementation,Belarus,Post-deployment,07/06/2017 09:00,4,1792,4,1400,-0.12
+77,IT -  CRM Implementation,Lithuania,Initiation,1/23/18 9:00,6,364,5,350,-0.09
+77,IT -  CRM Implementation,Lithuania,Preparation,11/13/17 9:00,71,8372,60,8050,-0.09
+77,IT -  CRM Implementation,Lithuania,Development,11/19/17 9:00,51.5,10920,47,10500,-0.09
+77,IT -  CRM Implementation,Lithuania,Testing,01/04/2018 09:00,19,2912,7.5,2800,-0.09
+77,IT -  CRM Implementation,Lithuania,Deployment,12/02/2017 09:00,12,0,11,0,-0.09
+77,IT -  CRM Implementation,Lithuania,Post-deployment,11/25/17 9:00,5,1456,4,1400,-0.09
+78,IT -  CRM Implementation,Estonia,Initiation,10/18/17 9:00,5,409.5,5,350,-0.09
+78,IT -  CRM Implementation,Estonia,Preparation,8/21/17 9:00,57.5,9418.5,59.5,8050,-0.09
+78,IT -  CRM Implementation,Estonia,Development,8/26/17 9:00,41.5,12285,42.5,10500,-0.09
+78,IT -  CRM Implementation,Estonia,Testing,10/02/2017 09:00,15.5,3276,15,2800,-0.09
+78,IT -  CRM Implementation,Estonia,Deployment,09/06/2017 09:00,9.5,0,9.5,0,-0.09
+78,IT -  CRM Implementation,Estonia,Post-deployment,8/31/17 9:00,4,1638,4,1400,-0.09
+79,IT -  CRM Implementation,Sweden,Initiation,7/13/18 9:00,12.5,777,12.5,700,-0.01
+79,IT -  CRM Implementation,Sweden,Preparation,02/12/2018 09:00,151,17871,129,16100,-0.01
+79,IT -  CRM Implementation,Sweden,Development,2/25/18 9:00,109.5,23310,97.5,21000,-0.01
+79,IT -  CRM Implementation,Sweden,Testing,06/02/2018 09:00,40.5,6216,2.5,5600,-0.01
+79,IT -  CRM Implementation,Sweden,Deployment,3/25/18 9:00,25,0,19,0,-0.01
+79,IT -  CRM Implementation,Sweden,Post-deployment,03/09/2018 09:00,10,3108,10,2800,-0.01
+80,IT -  CRM Implementation,Denmark,Initiation,11/27/17 9:00,11,812,11,700,-0.11
+80,IT -  CRM Implementation,Denmark,Preparation,7/17/17 9:00,132.5,18676,130.5,16100,-0.11
+80,IT -  CRM Implementation,Denmark,Development,7/28/17 9:00,96,24360,83,21000,-0.11
+80,IT -  CRM Implementation,Denmark,Testing,10/21/17 9:00,35.5,6496,15.5,5600,-0.11
+80,IT -  CRM Implementation,Denmark,Deployment,8/22/17 9:00,22,0,22,0,-0.11
+80,IT -  CRM Implementation,Denmark,Post-deployment,08/08/2017 09:00,9,3248,9,2800,-0.11
+81,IT -  CRM Implementation,Norway,Initiation,04/02/2018 09:00,10,840,10,700,-0.11
+81,IT -  CRM Implementation,Norway,Preparation,12/04/2017 09:00,118.5,19320,118.5,16100,-0.11
+81,IT -  CRM Implementation,Norway,Development,12/14/17 9:00,86,25200,85,21000,-0.11
+81,IT -  CRM Implementation,Norway,Testing,2/28/18 9:00,32,6720,30,5600,-0.11
+81,IT -  CRM Implementation,Norway,Deployment,01/05/2018 09:00,19.5,0,19.5,0,-0.11
+81,IT -  CRM Implementation,Norway,Post-deployment,12/24/17 9:00,8,3360,8,2800,-0.11
+82,IT -  CRM Implementation,Switzerland,Initiation,6/20/18 9:00,10.5,707,10.5,700,-0.04
+82,IT -  CRM Implementation,Switzerland,Preparation,02/12/2018 09:00,127.5,16261,113.5,16100,-0.04
+82,IT -  CRM Implementation,Switzerland,Development,2/23/18 9:00,92.5,21210,86.5,21000,-0.04
+82,IT -  CRM Implementation,Switzerland,Testing,5/16/18 9:00,34.5,5656,30,5600,-0.04
+82,IT -  CRM Implementation,Switzerland,Deployment,3/19/18 9:00,21,0,21,0,-0.04
+82,IT -  CRM Implementation,Switzerland,Post-deployment,03/05/2018 09:00,8.5,2828,8.5,2800,-0.04
+83,IT -  CRM Implementation,Cote d'Ivoire,Initiation,8/29/17 9:00,3.5,240.3333333,3.5,233.3333333,-0.12
+83,IT -  CRM Implementation,Cote d'Ivoire,Preparation,7/17/17 9:00,43,5527.666667,39,5366.666667,-0.12
+83,IT -  CRM Implementation,Cote d'Ivoire,Development,7/21/17 9:00,31.5,7210,28.5,7000,-0.12
+83,IT -  CRM Implementation,Cote d'Ivoire,Testing,8/18/17 9:00,11.5,1922.666667,9.5,1866.666667,-0.12
+83,IT -  CRM Implementation,Cote d'Ivoire,Deployment,7/29/17 9:00,7,0,7,0,-0.12
+83,IT -  CRM Implementation,Cote d'Ivoire,Post-deployment,7/24/17 9:00,3,961.3333333,3,933.3333333,-0.12
+84,IT -  CRM Implementation,Senegal,Initiation,2/28/18 9:00,4.5,212.3333333,4.5,233.3333333,-0.15
+84,IT -  CRM Implementation,Senegal,Preparation,01/08/2018 09:00,51,4883.666667,41,5366.666667,-0.15
+84,IT -  CRM Implementation,Senegal,Development,1/13/18 9:00,37,6370,30,7000,-0.15
+84,IT -  CRM Implementation,Senegal,Testing,2/14/18 9:00,14,1698.666667,5.5,1866.666667,-0.15
+84,IT -  CRM Implementation,Senegal,Deployment,1/22/18 9:00,8.5,0,6.5,0,-0.15
+84,IT -  CRM Implementation,Senegal,Post-deployment,1/17/18 9:00,3.5,849.3333333,3.5,933.3333333,-0.15
+85,IT -  CRM Implementation,South Africa,Initiation,08/08/2017 09:00,5,402.5,5,350,-0.15
+85,IT -  CRM Implementation,South Africa,Preparation,06/12/2017 09:00,56.5,9257.5,58.5,8050,-0.15
+85,IT -  CRM Implementation,South Africa,Development,6/17/17 9:00,41,12075,42,10500,-0.15
+85,IT -  CRM Implementation,South Africa,Testing,7/23/17 9:00,15,3220,17.5,2800,-0.15
+85,IT -  CRM Implementation,South Africa,Deployment,6/27/17 9:00,9.5,0,9.5,0,-0.15
+85,IT -  CRM Implementation,South Africa,Post-deployment,6/22/17 9:00,4,1610,4,1400,-0.15
+86,IT -  CRM Implementation,Gambia,Initiation,11/08/2017 09:00,4.5,273,4.5,233.3333333,-0.04
+86,IT -  CRM Implementation,Gambia,Preparation,9/18/17 9:00,50.5,6279,38.5,5366.666667,-0.04
+86,IT -  CRM Implementation,Gambia,Development,9/23/17 9:00,36.5,8190,33.5,7000,-0.04
+86,IT -  CRM Implementation,Gambia,Testing,10/25/17 9:00,13.5,2184,4.5,1866.666667,-0.04
+86,IT -  CRM Implementation,Gambia,Deployment,10/02/2017 09:00,8.5,0,6.5,0,-0.04
+86,IT -  CRM Implementation,Gambia,Post-deployment,9/27/17 9:00,3.5,1092,3.5,933.3333333,-0.04
+87,IT -  CRM Implementation,Gabon,Initiation,10/10/2017 09:00,4.5,226.3333333,4,233.3333333,-0.12
+87,IT -  CRM Implementation,Gabon,Preparation,8/21/17 9:00,49.5,5205.666667,40,5366.666667,-0.12
+87,IT -  CRM Implementation,Gabon,Development,8/26/17 9:00,36,6790,32,7000,-0.12
+87,IT -  CRM Implementation,Gabon,Testing,9/26/17 9:00,13.5,1810.666667,5,1866.666667,-0.12
+87,IT -  CRM Implementation,Gabon,Deployment,09/04/2017 09:00,8.5,0,6,0,-0.12
+87,IT -  CRM Implementation,Gabon,Post-deployment,8/30/17 9:00,3.5,905.3333333,3,933.3333333,-0.12
+88,IT -  CRM Implementation,Benin,Initiation,7/26/17 9:00,4,296.3333333,4,233.3333333,-0.01
+88,IT -  CRM Implementation,Benin,Preparation,06/12/2017 09:00,44,6815.666667,37,5366.666667,-0.01
+88,IT -  CRM Implementation,Benin,Development,6/16/17 9:00,32,8890,31,7000,-0.01
+88,IT -  CRM Implementation,Benin,Testing,7/14/17 9:00,12,2370.666667,10,1866.666667,-0.01
+88,IT -  CRM Implementation,Benin,Deployment,6/24/17 9:00,7.5,0,6.5,0,-0.01
+88,IT -  CRM Implementation,Benin,Post-deployment,6/20/17 9:00,3,1185.333333,3,933.3333333,-0.01
+89,IT -  CRM Implementation,Togo,Initiation,3/20/18 9:00,3,256.6666667,3,233.3333333,-0.12
+89,IT -  CRM Implementation,Togo,Preparation,02/12/2018 09:00,35.5,5903.333333,36.5,5366.666667,-0.12
+89,IT -  CRM Implementation,Togo,Development,2/15/18 9:00,25.5,7700,28.5,7000,-0.12
+89,IT -  CRM Implementation,Togo,Testing,03/10/2018 09:00,9.5,2053.333333,14.5,1866.666667,-0.12
+89,IT -  CRM Implementation,Togo,Deployment,2/22/18 9:00,6,0,6,0,-0.12
+89,IT -  CRM Implementation,Togo,Post-deployment,2/18/18 9:00,2.5,1026.666667,2.5,933.3333333,-0.12
+90,IT -  CRM Implementation,Burkina Faso,Initiation,08/10/2017 09:00,4,259,4,233.3333333,-0.05
+90,IT -  CRM Implementation,Burkina Faso,Preparation,6/26/17 9:00,45,5957,42,5366.666667,-0.05
+90,IT -  CRM Implementation,Burkina Faso,Development,6/30/17 9:00,32.5,7770,27.5,7000,-0.05
+90,IT -  CRM Implementation,Burkina Faso,Testing,7/29/17 9:00,12,2072,7,1866.666667,-0.05
+90,IT -  CRM Implementation,Burkina Faso,Deployment,07/08/2017 09:00,7.5,0,7.5,0,-0.05
+90,IT -  CRM Implementation,Burkina Faso,Post-deployment,07/04/2017 09:00,3,1036,3,933.3333333,-0.05
+91,IT -  CRM Implementation,Niger,Initiation,01/10/2018 09:00,3,221.6666667,3,233.3333333,-0.04
+91,IT -  CRM Implementation,Niger,Preparation,12/04/2017 09:00,36.5,5098.333333,38.5,5366.666667,-0.04
+91,IT -  CRM Implementation,Niger,Development,12/07/2017 09:00,26.5,6650,28.5,7000,-0.04
+91,IT -  CRM Implementation,Niger,Testing,12/31/17 9:00,10,1773.333333,12,1866.666667,-0.04
+91,IT -  CRM Implementation,Niger,Deployment,12/14/17 9:00,6,0,6,0,-0.04
+91,IT -  CRM Implementation,Niger,Post-deployment,12/10/2017 09:00,2.5,886.6666667,2.5,933.3333333,-0.04
+92,IT -  CRM Implementation,Lebanon,Initiation,1/28/18 9:00,6.5,364,6,350,-0.05
+92,IT -  CRM Implementation,Lebanon,Preparation,11/13/17 9:00,76,8372,60,8050,-0.05
+92,IT -  CRM Implementation,Lebanon,Development,11/20/17 9:00,55.5,10920,48,10500,-0.05
+92,IT -  CRM Implementation,Lebanon,Testing,01/08/2018 09:00,20.5,2912,6,2800,-0.05
+92,IT -  CRM Implementation,Lebanon,Deployment,12/04/2017 09:00,12.5,0,10,0,-0.05
+92,IT -  CRM Implementation,Lebanon,Post-deployment,11/26/17 9:00,5,1456,5,1400,-0.05
+93,IT -  CRM Implementation,Jordan,Initiation,12/09/2017 09:00,4.5,427,4.5,350,-0.14
+93,IT -  CRM Implementation,Jordan,Preparation,10/16/17 9:00,54,9821,62,8050,-0.14
+93,IT -  CRM Implementation,Jordan,Development,10/21/17 9:00,39,12810,39,10500,-0.14
+93,IT -  CRM Implementation,Jordan,Testing,11/24/17 9:00,14.5,3416,16.5,2800,-0.14
+93,IT -  CRM Implementation,Jordan,Deployment,10/31/17 9:00,9,0,10,0,-0.14
+93,IT -  CRM Implementation,Jordan,Post-deployment,10/25/17 9:00,4,1708,4,1400,-0.14
+94,IT -  CRM Implementation,Israel,Initiation,2/27/18 9:00,11,763,11,700,-0.06
+94,IT -  CRM Implementation,Israel,Preparation,10/16/17 9:00,133.5,17549,129.5,16100,-0.06
+94,IT -  CRM Implementation,Israel,Development,10/27/17 9:00,97,22890,84,21000,-0.06
+94,IT -  CRM Implementation,Israel,Testing,1/21/18 9:00,36,6104,18,5600,-0.06
+94,IT -  CRM Implementation,Israel,Deployment,11/21/17 9:00,22,0,19,0,-0.06
+94,IT -  CRM Implementation,Israel,Post-deployment,11/07/2017 09:00,9,3052,9,2800,-0.06
+95,IT -  CRM Implementation,Egypt,Initiation,9/26/17 9:00,6,374.5,6,350,-0.09
+95,IT -  CRM Implementation,Egypt,Preparation,7/17/17 9:00,71,8613.5,54,8050,-0.09
+95,IT -  CRM Implementation,Egypt,Development,7/23/17 9:00,51.5,11235,43.5,10500,-0.09
+95,IT -  CRM Implementation,Egypt,Testing,09/07/2017 09:00,19,2996,18,2800,-0.09
+95,IT -  CRM Implementation,Egypt,Deployment,08/05/2017 09:00,12,0,10,0,-0.09
+95,IT -  CRM Implementation,Egypt,Post-deployment,7/29/17 9:00,5,1498,5,1400,-0.09
+96,IT -  CRM Implementation,Colombia,Initiation,09/11/2017 09:00,5,353.5,5,350,-0.03
+96,IT -  CRM Implementation,Colombia,Preparation,7/17/17 9:00,56,8130.5,60,8050,-0.03
+96,IT -  CRM Implementation,Colombia,Development,7/22/17 9:00,40.5,10605,41.5,10500,-0.03
+96,IT -  CRM Implementation,Colombia,Testing,8/27/17 9:00,15,2828,17,2800,-0.03
+96,IT -  CRM Implementation,Colombia,Deployment,08/01/2017 09:00,9.5,0,9.5,0,-0.03
+96,IT -  CRM Implementation,Colombia,Post-deployment,7/27/17 9:00,4,1414,4,1400,-0.03
+97,IT -  CRM Implementation,Brazil,Initiation,8/20/17 9:00,4.5,444.5,4.5,350,-0.03
+97,IT -  CRM Implementation,Brazil,Preparation,6/26/17 9:00,54.5,10223.5,55.5,8050,-0.03
+97,IT -  CRM Implementation,Brazil,Development,07/01/2017 09:00,39.5,13335,41.5,10500,-0.03
+97,IT -  CRM Implementation,Brazil,Testing,08/05/2017 09:00,15,3556,21,2800,-0.03
+97,IT -  CRM Implementation,Brazil,Deployment,07/11/2017 09:00,9,0,9,0,-0.03
+97,IT -  CRM Implementation,Brazil,Post-deployment,07/05/2017 09:00,4,1778,4,1400,-0.03
+98,IT -  CRM Implementation,Ecuador,Initiation,10/27/17 9:00,5.5,448,5.5,350,-0.13
+98,IT -  CRM Implementation,Ecuador,Preparation,8/21/17 9:00,66.5,10304,53.5,8050,-0.13
+98,IT -  CRM Implementation,Ecuador,Development,8/27/17 9:00,48,13440,45,10500,-0.13
+98,IT -  CRM Implementation,Ecuador,Testing,10/08/2017 09:00,18,3584,17.5,2800,-0.13
+98,IT -  CRM Implementation,Ecuador,Deployment,09/08/2017 09:00,11,0,10,0,-0.13
+98,IT -  CRM Implementation,Ecuador,Post-deployment,09/01/2017 09:00,4.5,1792,4.5,1400,-0.13
+99,IT -  CRM Implementation,Indonesia,Initiation,12/28/17 9:00,6,430.5,6,350,-0.07
+99,IT -  CRM Implementation,Indonesia,Preparation,10/16/17 9:00,72.5,9901.5,48.5,8050,-0.07
+99,IT -  CRM Implementation,Indonesia,Development,10/22/17 9:00,52.5,12915,46.5,10500,-0.07
+99,IT -  CRM Implementation,Indonesia,Testing,12/08/2017 09:00,19.5,3444,19.5,2800,-0.07
+99,IT -  CRM Implementation,Indonesia,Deployment,11/05/2017 09:00,12,0,10,0,-0.07
+99,IT -  CRM Implementation,Indonesia,Post-deployment,10/28/17 9:00,5,1722,5,1400,-0.07
+100,IT -  CRM Implementation,Malaysia,Initiation,2/13/18 9:00,6,325.5,6,350,0
+100,IT -  CRM Implementation,Malaysia,Preparation,12/04/2017 09:00,71,7486.5,56,8050,0
+100,IT -  CRM Implementation,Malaysia,Development,12/10/2017 09:00,51.5,9765,42.5,10500,0
+100,IT -  CRM Implementation,Malaysia,Testing,1/25/18 9:00,19,2604,17,2800,0
+100,IT -  CRM Implementation,Malaysia,Deployment,12/23/17 9:00,12,0,10,0,0
+100,IT -  CRM Implementation,Malaysia,Post-deployment,12/16/17 9:00,5,1302,5,1400,0
+101,IT -  CRM Implementation,China,Initiation,11/22/17 9:00,12.5,707,12.5,700,0
+101,IT -  CRM Implementation,China,Preparation,6/26/17 9:00,148.5,16261,100.5,16100,0
+101,IT -  CRM Implementation,China,Development,07/09/2017 09:00,108,21210,97,21000,0
+101,IT -  CRM Implementation,China,Testing,10/12/2017 09:00,40,5656,31.5,5600,0
+101,IT -  CRM Implementation,China,Deployment,08/05/2017 09:00,24.5,0,19.5,0,0
+101,IT -  CRM Implementation,China,Post-deployment,7/21/17 9:00,10,2828,10,2800,0
+102,IT -  CRM Implementation,Mauritius,Initiation,11/19/17 9:00,5.5,451.5,5.5,350,-0.02
+102,IT -  CRM Implementation,Mauritius,Preparation,9/18/17 9:00,62,10384.5,56,8050,-0.02
+102,IT -  CRM Implementation,Mauritius,Development,9/24/17 9:00,45,13545,44,10500,-0.02
+102,IT -  CRM Implementation,Mauritius,Testing,11/02/2017 09:00,17,3612,15.5,2800,-0.02
+102,IT -  CRM Implementation,Mauritius,Deployment,10/05/2017 09:00,10.5,0,10.5,0,-0.02
+102,IT -  CRM Implementation,Mauritius,Post-deployment,9/29/17 9:00,4.5,1806,4.5,1400,-0.02
+103,IT -  CRM Implementation,La Reunion,Initiation,1/16/18 9:00,5.5,430.5,5.5,350,-0.04
+103,IT -  CRM Implementation,La Reunion,Preparation,11/13/17 9:00,64,9901.5,60,8050,-0.04
+103,IT -  CRM Implementation,La Reunion,Development,11/19/17 9:00,46.5,12915,43.5,10500,-0.04
+103,IT -  CRM Implementation,La Reunion,Testing,12/30/17 9:00,17.5,3444,13,2800,-0.04
+103,IT -  CRM Implementation,La Reunion,Deployment,12/01/2017 09:00,10.5,0,9.5,0,-0.04
+103,IT -  CRM Implementation,La Reunion,Post-deployment,11/24/17 9:00,4.5,1722,4.5,1400,-0.04
